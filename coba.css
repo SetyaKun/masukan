@@ -1,0 +1,673 @@
+ @charset "utf-8";
+
+
+
+/*
+
+Design by NodeThirtyThree <http://www.nodethirtythree.com>
+
+Published by Free CSS Templates <http://www.freecsstemplates.org/>
+
+Released for free under a Creative Commons Attribution 2.5 License
+
+*/
+
+
+
+* {
+
+ margin: 0;
+
+ padding: 0;
+
+ position:static;
+
+ 
+
+}
+
+
+
+body {
+
+ background: url(ab.jpg);
+
+ font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+ font-size: 12px;
+
+ color: red;
+
+ clear:both;
+
+ width: 500%;
+
+ 
+
+ 
+
+}
+
+
+
+h1, h2, h3 {
+
+ 
+
+ color: #292929;
+
+}
+
+
+
+
+
+p, ul, ol {
+
+ margin-bottom: 2em;
+
+ text-align: justify;
+
+ line-height: 200%;
+
+}
+
+
+
+a:hover {
+
+ text-decoration: none;
+
+}
+
+
+
+img {
+
+ border: none;
+
+}
+
+
+
+.tn img {
+
+ border: 8px solid #F5F5F5;
+
+}
+
+
+
+hr {
+
+ display: none;
+
+}
+
+
+
+/* Logo */
+
+
+
+#header, #nav, #content, #footer-wrap {
+
+ width: 910px;
+
+}
+
+
+
+/* header */
+
+#header {
+
+ clear: both;
+
+ position: relative;
+
+ margin: 0 auto; padding: 0;
+
+ background: transparent url(header-image.jpg) no-repeat right top;
+
+ height: 210px;
+
+ text-align: left; 
+
+}
+
+#header #clouds {
+
+ position: absolute;
+
+ float: left;
+
+ width: 177px;
+
+ top: 24px;
+
+ height: 130px;
+
+ left: 9px;
+
+ 
+
+}
+
+#header h1#logo-text a {
+
+ position: absolute;
+
+ margin: 0;
+
+ padding: 0;
+
+ font: normal 58px Trebuchet MS, Tahoma, Arial, 'Sans-serif';
+
+ letter-spacing: -3px;
+
+ color: #FFFFFF;
+
+ text-decoration: none;
+
+ text-transform: none;
+
+ forbidden 9999;
+
+ background: transparent;
+
+ /* change the values of top and left to adjust the position of the logo*/
+
+ top: 46px;
+
+ left: 200px;
+
+ width: 611px;
+
+ height: 119px;
+
+}
+
+#header p#slogan {
+
+ position: absolute;
+
+ text-transform: none;
+
+ font: normal 19px 'Trebuchet Ms', Sans-serif;
+
+ color: #fff;
+
+ margin: 0;
+
+ padding: 0;
+
+ forbidden 9999;
+
+ /* change the values of left and top to adjust the position of the slogan */
+
+ top: 120px;
+
+ left: 378px;
+
+}
+
+
+
+
+
+/* Menu horizontal */
+
+
+
+#nav {
+
+ clear: both; 
+
+ margin: 0 auto;
+
+ padding: 0; 
+
+ position:relative; 
+
+}
+
+#nav ul {
+
+ float: left;
+
+ list-style: none;
+
+ text-transform: uppercase;
+
+ margin: 0; padding: 0; 
+
+ height: 56px;  
+
+}
+
+#nav ul li {
+
+ float: left;
+
+ margin: 0; padding: 0;
+
+ height: 56px;
+
+}
+
+#nav ul li a {
+
+ display: block;
+
+ float: left;
+
+ width: auto;
+
+ margin: 0;
+
+ padding: 0 20px;
+
+ color: #a5a5a5;
+
+ font: bold 16px/54px "Trebuchet MS", Helvetica, Arial, sans-serif;
+
+ text-decoration: none; 
+
+ letter-spacing: 1px; 
+
+}
+
+#nav ul li a:hover, 
+
+#nav ul li a:active {
+
+ color: #fff;  
+
+}
+
+#nav ul li#current a { 
+
+ color: #FF8B04; 
+
+}
+
+
+
+<!--untuk tabel-->
+
+p, td, th {
+
+    font: 15 Arial, Helvetica, sans-serif;
+
+}
+
+.datatable {
+
+    border: 1px solid #D6DDE6;
+
+    border-collapse: collapse;
+
+}
+
+.datatable td {
+
+    border: 1px solid #D6DDE6;
+
+    padding: 4px;
+
+}
+
+.datatable th {
+
+    border: 1px solid #828282;
+
+    background-color: #BCBCBC;
+
+    font-weight: bold;
+
+    text-align: left;
+
+    padding-left: 4px;
+
+ padding-right: 0px;
+
+ text-align:center;
+
+}
+
+.datatable caption {
+
+    font: bold 12px Arial, Helvetica, sans-serif;
+
+    color: #33517A;
+
+    text-align: left;
+
+    padding-top: 3px;
+
+    padding-bottom: 8px;
+
+}
+
+.datatable tr.altrow {
+
+    background-color: #DFE7F2;
+
+    color: #000000;
+
+}
+
+
+
+  
+
+/* Page */
+
+
+
+#bg {
+
+ background-color:#0000FF ;
+
+ position:static;
+
+}
+
+
+
+#page {
+
+ width: 93%;
+
+ margin: 0 auto;
+
+ position:relative;
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+}
+
+
+
+/* Content */
+
+
+
+#content {
+
+ float:left;
+
+ width: 730px;
+
+ padding: 10px 0 0 10px;
+
+ margin-left:10px;
+
+ margin-right:10px;
+
+ position:relative; 
+
+}
+
+
+
+/* Posts */
+
+
+
+/*sidebar kiri */
+
+#sidebar{
+
+ float: left;
+
+ width: 250px;
+
+ padding: 0 1px 0 0;
+
+ border: thick ;
+
+ margin: 10px 0 20px 10px; 
+
+ padding: 0;
+
+ position:relative;
+
+}
+
+
+
+#sidebar h3 {
+
+ font: normal 1.6em 'Trebuchet MS', Tahoma, Arial, Sans-serif;
+
+ padding: .3em 0 .5em 10px; 
+
+ color: #333333;   
+
+ text-transform: none;
+
+ letter-spacing: -1px; 
+
+}
+
+
+
+#sidebar ul.sidemenu {
+
+ margin: 0 0 0 10px;
+
+ padding: .1em 0 1em 0;  
+
+ font-family: 'Trebuchet MS', Tahoma, Sans-serif;  
+
+ border-top: 2px solid #0000FF;
+
+}
+
+#sidebar ul.sidemenu li {
+
+ padding: 0; 
+
+ background: url(bullet.jpg) no-repeat .5em .6em;  
+
+ border-bottom: 1px solid #CCCCCC; 
+
+ list-style:none;
+
+}
+
+
+
+ul.submenu {
+
+ padding: 0; 
+
+ background: url(bullet.jpg) no-repeat .5em .6em;  
+
+ border-bottom: 1px solid #CCCCCC; 
+
+ list-style:none;
+
+ 
+
+ 
+
+}
+
+* html body #sidebar ul.sidemenu li ul.submenu { height: 1%; }
+
+
+
+#sidebar ul.sidemenu li a {
+
+ display: block;
+
+ font-weight: bold;
+
+ color: #333333;
+
+ text-decoration: none;
+
+ padding: .2em 0 .2em 30px;
+
+ line-height: 1.5em;
+
+ font-size: 1.25em;
+
+}
+
+#sidebar ul.sidemenu li a:hover {
+
+ color: #FF8B04;    
+
+}
+
+#sidebar ul.sidemenu ul { margin: 0 0 0 15px; }
+
+#sidebar ul.sidemenu ul li { border: none; }
+
+
+
+.clear {
+
+    clear: both;
+
+}
+
+/* Sidebar kanan*/
+
+ 
+
+#sidebar-kanan {
+
+ float: left;
+
+ width: 10%;
+
+ padding: 0 1px 0 0;
+
+ border: medium;
+
+ position:relative;
+
+ font-size: 12px;
+
+ 
+
+}
+
+
+
+/* Footer */
+
+
+
+#footer{
+
+ height:7px;
+
+ }
+
+#center_footer{
+
+ background:#FFFFFF;
+
+ height: 120px;
+
+ width: 100%;
+
+ margin:0 auto;
+
+ }
+
+#left_footer,#right_footer {
+
+ width:450px;
+
+ padding:20px;
+
+ float:left;
+
+ }
+
+#left_footer b{
+
+ color:#fff;
+
+ }
+
+#left_footer li{
+
+ float:left;
+
+ margin:0 20px;
+
+ }
+
+#left_footer img{
+
+ width:60px;
+
+ height:60px;
+
+ }
+
+#right_footer{
+
+ float:right;
+
+ }
+
+#right_footer a{ 
+
+ color:#666666;
+
+ padding:0 10px;
+
+ line-height: 21px;
+
+ font-size: 13px;
+
+ font-weight:bold;
+
+ }
+
+#footer span{
+
+ color:#666666;
+
+ font-size: 13px;
+
+ margin-left: 150px;
+
+ }
+
+ 
+
+  
+
+.transparent {
+
+  opacity: 0.8; /* Modern Browser */
+
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; /* IE 8 */
+
+  filter: alpha(opacity=80); /* IE 5-7 */
+
+  -moz-opacity: 0.8; /* Netscape */
+
+  -khtml-opacity: 0.8; /* Safari 1.x */
+
+}
